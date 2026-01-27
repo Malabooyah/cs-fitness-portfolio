@@ -1,0 +1,108 @@
+/* Base page styles */
+body{
+    background-color: #f5f7fa;
+    color: #1f2933;
+    line-height: 1.6;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Layout and spacing */
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+main {
+    max-width:  900px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 40px 20px;
+}
+/* Header and navigation */
+a {
+    color:#2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: vertical center;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #2563ec
+}
+
+header {
+    border-bottom: 1 px solid#e5e7eb;
+    background-color: #ffffff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+header h2{
+    margin: 0;
+}
+/* Typography */
+h1{
+    font-size: 2.2rem;
+    margin: 0 0 12px 0;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+}
+
+h3{
+    font-size: 1.15rem;
+    margin: 18px 0 8px 0;
+}
+
+h4{
+    font-size: 1rem;
+    margin: 16px 0 6px 0;
+}
+
+p{
+    margin: 0 0 14px 0;
+    color: #4b5563;
+}
+
+main p, main ul{
+    max-width: 70ch;
+}
+
+section:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+ul{
+  margin: 0 0 14px 0;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #4b5563;
+    font-size: 0.9rem;
+}
