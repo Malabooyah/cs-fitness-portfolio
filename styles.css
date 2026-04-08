@@ -28,7 +28,7 @@ a {
     text-decoration: none;
     font-weight: 500;
     display: flex;
-    align-items: vertical center;
+    align-items: center;
     padding: 2px;
     flex-wrap: wrap;
 }
@@ -39,7 +39,7 @@ a:hover {
 }
 
 header {
-    border-bottom: 1 px solid#e5e7eb;
+    border-bottom: 1px solid#e5e7eb;
     background-color: #ffffff;
 }
 
@@ -71,6 +71,7 @@ h2{
 h3{
     font-size: 1.15rem;
     margin: 18px 0 8px 0;
+    color: #111827;
 }
 
 h4{
