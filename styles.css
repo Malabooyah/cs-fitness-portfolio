@@ -27,15 +27,16 @@ a {
     color:#2563eb;
     text-decoration: none;
     font-weight: 500;
+}
+nav a {
     display: flex;
     align-items: center;
     padding: 2px;
     flex-wrap: wrap;
 }
-
 a:hover {
     text-decoration: underline;
-    background-color: #2563ec
+    color: #1e40af;
 }
 
 header {
@@ -106,4 +107,64 @@ footer{
     padding: 20px;
     color: #4b5563;
     font-size: 0.9rem;
+}
+
+/*Resume Button*/
+.btn-resume {
+    display: inline-block;
+    background-color:#2563eb;
+    color:#ffffff;
+    padding:10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.btn-resume:hover {
+    background-color: #1e40af;
+    text-decoration: none;
+}
+
+/*Images*/
+.project-screenshot {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    margin:  12px 0;
+}
+
+.project-screenshot.screenshot-wide {
+    width: 700px;
+}
+
+/*Mobile Responsiveness*/
+@media(max-width: 600px) {
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .project-screenshot,
+    .project-screenshot.screenshot-wide{
+        width:100%;
+    }
+
+    section {
+        padding: 24px 16px;
+    }
 }
