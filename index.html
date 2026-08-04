@@ -80,6 +80,7 @@
             <h2>Projects</h2>
                 <p>Below are a few projects that reflect my focus on fundamentals,
                 practical problem-solving, and steady improvement.</p>
+
             <h3>NYC Housing Data Cleaner (Python)</h3>
                 <p>
                 Built a Python tool to clean and preprocess a real-world housing dataset, handling missing values, duplicates, and feature scaling.
@@ -148,7 +149,47 @@
                     View project on GitHub
                     </a>
                 </p>
-            <h3>LiftLog – Workout Tracking Database (SQL)</h3>
+
+            <h3>LiftLog Full-Stack Web App</h3>
+                <p>
+                What started as the SQL project above evolved into a fully deployed,
+                installable web app: a Python CLI workout logger rebuilt into a
+                FastAPI backend and browser frontend, packaged as a Progressive
+                Web App with offline support and automated CI testing.
+                </p>
+
+                <img src="images/LiftLogPWA.jpg" alt="LiftLog PWA installed and running on a mobile home screen" class="project-screenshot">
+
+                <h4>What I built</h4>
+                    <ul>
+                        <li>Designed a FastAPI backend with CSV-backed storage and
+                        REST endpoints for logging and retrieving workouts</li>
+                        <li>Built a live-updating frontend with no page reloads,
+                        consolidated onto a single server to eliminate cross-origin
+                        request issues</li>
+                        <li>Implemented a full Progressive Web App layer — manifest,
+                        service worker, custom icon — installable directly to a
+                        phone home screen</li>
+                        <li>Wrote an automated pytest suite and configured GitHub
+                        Actions CI to run tests on every push</li>
+                        <li>Containerized with Docker and deployed live</li>
+                    </ul>
+
+                <p><strong>Tech:</strong> Python, FastAPI, HTML/CSS/JS, Docker, GitHub Actions</p>
+
+                <p>
+                    <a href="https://liftlog-a3gu.onrender.com"
+                    target="_blank" rel="noopener noreferrer">
+                    View live app
+                    </a>
+                    &nbsp;·&nbsp;
+                    <a href="https://github.com/Malabooyah/liftlog"
+                    target="_blank" rel="noopener noreferrer">
+                    View code on GitHub
+                    </a>
+                </p>
+
+            <h3>LiftLog Database Design (SQL)</h3>
                 <p>A relational database designed to track workouts, exercises,
                 and individual training sets using structured tables and queries.
                 </p>
