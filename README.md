@@ -21,7 +21,7 @@ It highlights my background as a Computer Science student and my structured appr
 - About
 - Skills
 - Projects
-- Training
+- Certifications
 - Contact
 
 ## What I Learned
@@ -39,8 +39,6 @@ It highlights my background as a Computer Science student and my structured appr
 ## Next Improvements
 
 - Add a real contact form
-- Add project links and screenshots
-- Improve mobile navigation styling
 
 ## Author
 
